@@ -167,8 +167,8 @@ export class ViewStudentComponent implements OnInit {
         },
         (errorResponse) => {
           // Log it
-          cnsole.log(errorResponse);
-          // dsdsd
+          console.log(errorResponse);
+          
       }
     );
     }
